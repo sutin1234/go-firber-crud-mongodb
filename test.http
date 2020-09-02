@@ -1,0 +1,30 @@
+POST http://localhost:3000/api/user/add
+Content-Type: application/json
+
+{
+    "username": "sutin2022",
+    "password": "12345"
+}
+
+###
+PUT http://localhost:3000/api/user
+Content-Type: application/json
+
+{
+    "username": "sutin1234",
+    "password": "1234578"
+}
+
+
+###
+GET http://localhost:3000/api/user
+Content-Type: application/json
+
+###
+GET http://localhost:3000/api/user/sutin1234
+Content-Type: application/json
+
+
+###
+DELETE http://localhost:3000/api/user/sutin1234
+Content-Type: application/json
